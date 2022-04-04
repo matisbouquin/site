@@ -1,0 +1,27 @@
+
+@media (max-width: 1200px){
+
+    .col-responsive{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*Contact*/
+    .loca, .tel, .mail {
+        align-items: center;
+    }
+
+    .info img{
+        min-width: 30%;
+        min-height: 30%;
+    }
+
+    
+}
+
+@media (max-width: 760px){
+
+    /*menu*/
+    
+}

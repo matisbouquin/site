@@ -1,0 +1,131 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  margin: auto;
+}
+
+/*MENU NAV*/
+
+
+.menu {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.menu * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+
+.menu a {
+  padding: 0.3em 0;
+  color: #212121;
+  position: relative;
+  display: block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu a:before,
+.menu a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.menu a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+
+.menu a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #212121;
+  white-space: nowrap;
+}
+.menu li:hover a,
+.menu .current a {
+  transform: translateY(100%);
+}
+
+hr{
+  border : none;
+  border-top: black solid 0.1rem;
+  overflow: visible;
+  opacity: 10%;
+}
+
+/*FIN MENU NAV*/
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+footer {
+  box-sizing: unset !important;
+  display: flex;
+  justify-content: center;
+  background-color: #bad6e2;
+}
+
+footer th {
+  font-weight: normal;
+}
+
+.foot, .foot a {
+  color: rgb(53, 53, 53);
+}
+
+.texte1 p, .texte2 p, .texte3 p {
+  color: #7a7a7a;
+}
+
+
+footer .dedans {
+  text-align: center;
+}
+
+footer hr{
+  margin : 0 !important;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+/*https://www.raphaelbeaudet.fr/creer-un-menu-responsive-uniquement-en-html-css/*/
+

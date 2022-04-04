@@ -1,0 +1,92 @@
+.title{
+    font-size: 35px;
+}
+  
+  /*MATIS BOUQUIN*/
+#matisbouquin{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+  
+#matisbouquin h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+}
+  
+#matisbouquin .bouton-matis a{ 
+    padding: 0.8rem 5rem; 
+    background: white; 
+    border: black solid 0.2rem;
+    color: black; 
+    text-decoration: none;
+}
+  
+#matisbouquin .bouton-matis a:hover {
+    transition : 0.8s ;
+    background: black;
+    color: white;
+}
+  
+#matisbouquin .items .bouton-matis{
+    margin-bottom: 4rem;
+} 
+/*FIN MATIS BOUQUIN*/
+  
+/*TRANSITION*/
+#transition .transition-matisbouquin{
+    height: 30rem;
+    filter: grayscale(50%);
+    background: url(../image/image-ecole.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/*FIN TRANSITION*/
+  
+  
+/*MES PROJETS*/
+  
+.projet{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.projet img{
+    max-height: 15rem;
+}
+     
+.ordinateur-deux,
+.ordinateur-trois,
+.ordinateur-un{
+    flex: 6;
+}
+  
+#projets h3{
+    font-size: 30px;
+}
+  
+.ordinateur-un{
+    margin-top: 2rem;
+}
+  
+.ordinateur-trois,
+.ordinateur-deux{
+    margin-top: 5rem;
+}
+
+.formation-imp .ordinateur-deux p{
+    text-align: justify;
+    margin : 2rem;
+}
+
+.formation-imp .ordinateur-deux img{
+    min-width: 4rem;
+    min-height: 4rem;
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+
